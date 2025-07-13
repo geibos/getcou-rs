@@ -1,0 +1,11 @@
+[package]
+name = "getcourse_downloader"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0"
+reqwest = { version = "0.11", features = ["json"] }
+tempfile = "3.3"
+tokio = { version = "1.0", features = ["full"] }
+futures = "0.3"
